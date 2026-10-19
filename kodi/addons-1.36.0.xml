@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.streamit" name="StreamIt Repository" version="1.36.0" provider-name="StreamIt"><requires><import addon="xbmc.addon" version="19.0.0" /></requires><extension point="xbmc.addon.repository" name="StreamIt"><dir minversion="19.0.0"><info>https://raw.githubusercontent.com/YpsilonItas/streamit/main/kodi/addons-1.36.0.xml</info><checksum verify="sha256">https://raw.githubusercontent.com/YpsilonItas/streamit/main/kodi/addons-1.36.0.xml.sha256</checksum><datadir>https://ypsilonitas.github.io/streamit/</datadir></dir></extension><extension point="xbmc.addon.metadata"><summary lang="it_IT">Installazione e aggiornamenti di StreamIt</summary><description lang="it_IT">Repository personale StreamIt per Kodi 19 e successivi.</description><platform>all</platform><license>GPL-2.0-or-later</license><assets><icon>icon-1.36.0.png</icon></assets></extension></addon><addon id="plugin.video.streamit" name="StreamIt" version="1.36.0" provider-name="By Ema">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="script.module.beautifulsoup4" version="4.9.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="service.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="it">Un addon per Kodi.</summary>
+        <description lang="it">StreamIt è un addon per Kodi.</description>
+        <disclaimer lang="it">I proprietari di questo add-on non ospitano né distribuiscono nessuno dei contenuti visualizzabili tramite questo add-on né hanno alcuna affiliazione con i fornitori di contenuti.</disclaimer>
+        <assets><icon>resources/media/icon-1.36.0.png</icon></assets>
+        <platform>all</platform>
+        <language>it</language>
+        <license>GPL-2.0-or-later</license>
+        <forum />
+        <website />
+        <source />
+        <news>
+v1.0.0 - Versione iniziale
+        </news>
+    </extension>
+
+</addon></addons>
