@@ -12,7 +12,7 @@ Un addon per Kodi.
 
 **[Apri il sito e scarica StreamIt →](https://ypsilonitas.github.io/streamit/)**
 
-**[Scarica la repository 1.36.0](https://ypsilonitas.github.io/streamit/repository.streamit-1.36.0.zip)**
+**[Scarica la repository 1.37.0](https://ypsilonitas.github.io/streamit/repository.streamit-1.37.0.zip)**
 
 </div>
 
